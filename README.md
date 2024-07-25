@@ -9,7 +9,8 @@
 <p>Para comparar o desempenho das ações ao longo do tempo, foi criada uma variável que representa o valor que se teria caso fosse investido R$100,00 em cada ação no primeiro dia da amostra. Este valor é atualizado diariamente com base nos retornos.</p>
 
 <p>Por fim, foi criado um gráfico utilizando o ggplot2 para mostrar o desempenho acumulado de cada ação ao longo do tempo. O gráfico inclui um efeito de sombreamento para denotar a duração do lockdown de março de 2020 a fevereiro de 2021.</p>
-
+<h2>Gráfico de Desempenho das Ações</h2>
+    <img src="img-project.jpg" alt="Gráfico de Desempenho das Ações" width="800">
 <h2>Requisitos</h2>
     <ul>
         <li>R</li>
