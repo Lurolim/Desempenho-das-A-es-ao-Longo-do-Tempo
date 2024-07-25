@@ -2,7 +2,7 @@
 
 <p>Este projeto tem como objetivo analisar o desempenho de 10 ações ao longo do tempo, utilizando uma base de dados em Excel com preços de fechamento ajustados por proventos. O processo inclui a importação dos dados, transformação e visualização em um gráfico utilizando o ggplot2.</p>
 
-<p>Primeiramente, a base de dados em formato Excel, chamada <a href="https://link-para-o-arquivo-excel" target="_blank">“Dados para atividade.xlsx”</a>, foi importada para o R utilizando o pacote readxl. Após a importação, os dados foram transformados utilizando a função <code>pivot_longer</code> do pacote tidyr para empilhar os preços de ações. Uma nova coluna chamada “ticker” foi criada para armazenar o código de negociação de cada ação.</p>
+<p>Primeiramente, a base de dados em formato Excel, chamada <a href="https://link-para-o-arquivo-excel" target="_blank">“Desempenho das Ações ao Longo do Tempo.xlsx”</a>, foi importada para o R utilizando o pacote readxl. Após a importação, os dados foram transformados utilizando a função <code>pivot_longer</code> do pacote tidyr para empilhar os preços de ações. Uma nova coluna chamada “ticker” foi criada para armazenar o código de negociação de cada ação.</p>
 
 <p>Os preços foram convertidos para o formato numérico, substituindo os hífens (-) por NA e transformando a coluna de datas para um formato reconhecido pelo R. As datas em que as ações não possuem dados de preços foram removidas. Em seguida, foi criada uma variável que contém os retornos diários de cada ação, agrupando as variáveis por ticker.</p>
 
